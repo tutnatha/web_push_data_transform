@@ -1,0 +1,9 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns1:createDataResponse xmlns:ns1="http://idempiere.org/ADInterface/1_0">
+      <StandardResponse xmlns="http://idempiere.org/ADInterface/1_0" IsError="true">
+        <Error>Service type PushDataSalesOrderLine not configured</Error>
+      </StandardResponse>
+    </ns1:createDataResponse>
+  </soap:Body>
+</soap:Envelope>

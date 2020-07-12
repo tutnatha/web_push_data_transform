@@ -1,0 +1,176 @@
+<soapenv:Envelope xmlns:_0="http://idempiere.org/ADInterface/1_0" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <_0:compositeOperation>
+      <_0:CompositeRequest>
+        <_0:serviceType>CompositeSalesOrderAndOrderLine</_0:serviceType>
+        <_0:operations>
+          <_0:operation postCommit="false" preCommit="false">
+            <_0:TargetPort>createData</_0:TargetPort>
+            <_0:ModelCRUD>
+              <_0:serviceType>CreatePOSOrderLine</_0:serviceType>
+              <_0:DataRow>
+                <_0:field column="M_PriceList_ID">
+                  <_0:val>101</_0:val>
+                </_0:field>
+                <_0:field column="M_Warehouse_ID">
+                  <_0:val>103</_0:val>
+                </_0:field>
+                <_0:field column="PriorityRule">
+                  <_0:val>5</_0:val>
+                </_0:field>
+                <_0:field column="DeliveryRule">
+                  <_0:val>A</_0:val>
+                </_0:field>
+                <_0:field column="C_PaymentTerm_ID">
+                  <_0:val>105</_0:val>
+                </_0:field>
+                <_0:field column="C_Currency_ID">
+                  <_0:val>100</_0:val>
+                </_0:field>
+                <_0:field column="C_BPartner_Location_ID">
+                  <_0:val>108</_0:val>
+                </_0:field>
+                <_0:field column="C_BPartner_ID">
+                  <_0:val>112</_0:val>
+                </_0:field>
+                <_0:field column="DateAcct">
+                  <_0:val>1970-01-01 08:00:00</_0:val>
+                </_0:field>
+                <_0:field column="DateOrdered">
+                  <_0:val>1970-01-01 08:00:00</_0:val>
+                </_0:field>
+                <_0:field column="C_DocType_ID">
+                  <_0:val>135</_0:val>
+                </_0:field>
+                <_0:field column="C_DocTypeTarget_ID">
+                  <_0:val>135</_0:val>
+                </_0:field>
+                <_0:field column="UpdatedBy">
+                  <_0:val>100</_0:val>
+                </_0:field>
+                <_0:field column="CreatedBy">
+                  <_0:val>100</_0:val>
+                </_0:field>
+                <_0:field column="AD_Client_ID">
+                  <_0:val>11</_0:val>
+                </_0:field>
+                <_0:field column="AD_Org_ID">
+                  <_0:val>11</_0:val>
+                </_0:field>
+              </_0:DataRow>
+            </_0:ModelCRUD>
+          </_0:operation>
+          <_0:operation postCommit="false" preCommit="false">
+            <_0:TargetPort>createData</_0:TargetPort>
+            <_0:ModelCRUD>
+              <_0:serviceType>CreatePOSOrderLine</_0:serviceType>
+              <_0:DataRow>
+                <_0:field column="M_Warehouse_ID">
+                  <_0:val>103</_0:val>
+                </_0:field>
+                <_0:field column="IsActive">
+                  <_0:val>Y</_0:val>
+                </_0:field>
+                <_0:field column="PriceActual">
+                  <_0:val>21.59</_0:val>
+                </_0:field>
+                <_0:field column="C_Currency_ID">
+                  <_0:val>102</_0:val>
+                </_0:field>
+                <_0:field column="C_Order_ID">
+                  <_0:val>@C_Order.C_Order_ID</_0:val>
+                </_0:field>
+                <_0:field column="C_UOM_ID">
+                  <_0:val>100</_0:val>
+                </_0:field>
+                <_0:field column="QtyOrdered">
+                  <_0:val>10</_0:val>
+                </_0:field>
+                <_0:field column="Created">
+                  <_0:val>1970-01-01 08:00:00</_0:val>
+                </_0:field>
+                <_0:field column="DateOrdered">
+                  <_0:val>1970-01-01 08:00:00</_0:val>
+                </_0:field>
+                <_0:field column="QtyReserved">
+                  <_0:val>0</_0:val>
+                </_0:field>
+                <_0:field column="QtyDelivered">
+                  <_0:val>10</_0:val>
+                </_0:field>
+                <_0:field column="UpdatedBy">
+                  <_0:val>100</_0:val>
+                </_0:field>
+                <_0:field column="CreatedBy">
+                  <_0:val>100</_0:val>
+                </_0:field>
+                <_0:field column="AD_Client_ID">
+                  <_0:val>11</_0:val>
+                </_0:field>
+                <_0:field column="AD_Org_ID">
+                  <_0:val>11</_0:val>
+                </_0:field>
+                <_0:field column="Updated">
+                  <_0:val>1970-01-01 08:00:00</_0:val>
+                </_0:field>
+                <_0:field column="Line">
+                  <_0:val>10</_0:val>
+                </_0:field>
+                <_0:field column="PriceList">
+                  <_0:val>22.73</_0:val>
+                </_0:field>
+                <_0:field column="QtyInvoiced">
+                  <_0:val>10</_0:val>
+                </_0:field>
+                <_0:field column="PriceLimit">
+                  <_0:val>20.46</_0:val>
+                </_0:field>
+                <_0:field column="LineNetAmt">
+                  <_0:val>215.9</_0:val>
+                </_0:field>
+                <_0:field column="FreightAmt">
+                  <_0:val>0</_0:val>
+                </_0:field>
+                <_0:field column="C_Tax_ID">
+                  <_0:val>105</_0:val>
+                </_0:field>
+                <_0:field column="IsDescription">
+                  <_0:val>N</_0:val>
+                </_0:field>
+                <_0:field column="QtyEntered">
+                  <_0:val>10</_0:val>
+                </_0:field>
+                <_0:field column="PriceEntered">
+                  <_0:val>21.59</_0:val>
+                </_0:field>
+                <_0:field column="QtyLostSales">
+                  <_0:val>0</_0:val>
+                </_0:field>
+                <_0:field column="M_Product_ID">
+                  <_0:val>128</_0:val>
+                </_0:field>
+              </_0:DataRow>
+            </_0:ModelCRUD>
+          </_0:operation>
+          <_0:operation postCommit="false" preCommit="false">
+            <_0:TargetPort>setDocAction</_0:TargetPort>
+            <_0:ModelSetDocAction>
+              <_0:serviceType>CompositeSalesOrderAndOrderLine</_0:serviceType>
+              <_0:recordIDVariable>@C_Order.C_Order_ID</_0:recordIDVariable>
+              <_0:docAction>CO</_0:docAction>
+            </_0:ModelSetDocAction>
+          </_0:operation>
+        </_0:operations>
+        <_0:ADLoginRequest>
+          <_0:user>SuperUser</_0:user>
+          <_0:pass>System</_0:pass>
+          <_0:ClientID>11</_0:ClientID>
+          <_0:RoleID>102</_0:RoleID>
+          <_0:OrgID>0</_0:OrgID>
+          <_0:stage>2</_0:stage>
+        </_0:ADLoginRequest>
+      </_0:CompositeRequest>
+    </_0:compositeOperation>
+  </soapenv:Body>
+</soapenv:Envelope>

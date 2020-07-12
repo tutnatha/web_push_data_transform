@@ -1,0 +1,9 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns1:setDocActionResponse xmlns:ns1="http://idempiere.org/ADInterface/1_0">
+      <StandardResponse xmlns="http://idempiere.org/ADInterface/1_0" IsError="true" RecordID="1000000">
+        <Error>No Record 1000000 in C_Invoice</Error>
+      </StandardResponse>
+    </ns1:setDocActionResponse>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,38 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns1:createDataResponse xmlns:ns1="http://idempiere.org/ADInterface/1_0">
+      <StandardResponse xmlns="http://idempiere.org/ADInterface/1_0" RecordID="1000019">
+        <outputFields>
+          <outputField Text="GardenWorld" column="AD_Client_ID" value="11"/>
+          <outputField Text="HQ" column="AD_Org_ID" value="11"/>
+          <outputField Text="USD" column="C_Currency_ID" value="100"/>
+          <outputField Text="80003_06/29/2020" column="C_Order_ID" value="1000000"/>
+          <outputField column="C_OrderLine_ID" value="1000019"/>
+          <outputField column="Created" value="1970-01-01 08:00:00.0"/>
+          <outputField Text="SuperUser" column="CreatedBy" value="100"/>
+          <outputField Text="CT Sales" column="C_Tax_ID" value="105"/>
+          <outputField Text="Each" column="C_UOM_ID" value="100"/>
+          <outputField column="DateOrdered" value="2020-06-29 00:00:00.0"/>
+          <outputField column="FreightAmt" value="0"/>
+          <outputField column="IsActive" value="true"/>
+          <outputField column="IsDescription" value="false"/>
+          <outputField column="Line" value="10"/>
+          <outputField column="LineNetAmt" value="215.90"/>
+          <outputField Text="HQ Warehouse" column="M_Warehouse_ID" value="103"/>
+          <outputField column="PriceActual" value="21.59"/>
+          <outputField column="PriceEntered" value="21.59"/>
+          <outputField column="PriceList" value="22.73"/>
+          <outputField column="Processed" value="true"/>
+          <outputField column="QtyDelivered" value="10"/>
+          <outputField column="QtyEntered" value="10"/>
+          <outputField column="QtyInvoiced" value="10"/>
+          <outputField column="QtyLostSales" value="0"/>
+          <outputField column="QtyOrdered" value="10"/>
+          <outputField column="QtyReserved" value="0"/>
+          <outputField column="Updated" value="1970-01-01 08:00:00.0"/>
+          <outputField Text="SuperUser" column="UpdatedBy" value="100"/>
+        </outputFields>
+      </StandardResponse>
+    </ns1:createDataResponse>
+  </soap:Body>
+</soap:Envelope>
